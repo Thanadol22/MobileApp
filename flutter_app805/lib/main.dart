@@ -12,9 +12,11 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        backgroundColor: Colors.deepPurpleAccent,
         appBar: AppBar(
           title: const Text('Date Time Picker'),
           centerTitle: true,
+          backgroundColor: Colors.indigo,
         ),
         body: Center(
           child: Padding(
